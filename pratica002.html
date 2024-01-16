@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 2 - Verificador de Idade</title>
+    <link rel="stylesheet" href="estiloverificador.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+
+    <section>
+        <div id="year">
+            Ano de nascimento (1904 - 2024): <input type="number" name="txtyear" id="txtyear">
+        </div>
+        <div id="">Sexo:
+            Masculino<input type="radio" name="txtsex" id="txtsex1">
+            Feminino<input type="radio" name="txtsex" id="txtsex2">
+        </div>
+        <div id = "verify">
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="result">
+        Preencha os dados acima para ver o resultado!
+        </div>
+        <div id="picture">
+            <img id="image" src="verificadorpadrao.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        LinkedIn: Filipe Fernandes
+    </footer>
+
+    <script src="verificador.js"></script>
+</body>
+</html>
